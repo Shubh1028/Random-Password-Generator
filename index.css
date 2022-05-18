@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+ 
+}
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-left: 50px;
+  margin-top: 50px;
+
+  background: #1f2937;
+}
+
+.container span {
+  display: block;
+  font-size: 50px;
+  color: #fff;
+  line-height: 50px;
+  letter-spacing: -0.025em;
+}
+
+.container span:nth-child(2) {
+  color: #10b981;
+}
+.container span:nth-child(3) {
+  color: #d5d4d8;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+button {
+  background-color: #10b981;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #fff;
+  padding: 9px, 17px, 9px, 15px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.fa {
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 4px;
+}
+button:focus {
+  outline: none;
+  border: none;
+}
+
+.line {
+  width: 446px;
+  margin-top: 30px;
+  border: 1px solid #2f3e53;
+}
+.passwords-button {
+  display: flex;
+  justify-content: space-between;
+  width: 446px;
+}
+
+.passwords-button button{
+    background: #273549;
+    color: #10b981;
+}
